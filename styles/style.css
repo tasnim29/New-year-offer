@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* head section */
+.banner {
+  background: linear-gradient(
+      0deg,
+      rgba(7, 2, 17, 0.9) 0%,
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url("../images/Banner\ Image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 600px;
+  background-position: cover;
+  background-size: cover;
+  margin: 50px 140px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .heading .subtitle {
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+.banner .heading .title {
+  color: #ffffff;
+  font-size: 57px;
+}
+.banner .heading {
+  margin: 0 auto;
+}
+.title .celeb {
+  display: block;
+}
+.text-center {
+  text-align: center;
+}
+/* style offer-info */
+.offer-info {
+  width: 800px;
+  margin: 120px 398px;
+}
+.offer-info .image-offer {
+  margin-top: 48px;
+}
+.offer-info h2 {
+  font-size: 70px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 38px;
+}
+.offer-info p {
+  font-size: 19px;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+.offer-info h3 {
+  font-weight: bold;
+  font-size: 38px;
+  color: #070211;
+}
+/* Main section styling */
+.welcome {
+  background: linear-gradient(
+      0deg,
+      rgba(7, 2, 17, 0.9) 0%,
+      rgba(7, 2, 17, 0.2) 100%
+    ),
+    url("../images/Vectorrr.png");
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 120px 140px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.welcome .welcom-party {
+  width: 600px;
+  margin: 126px 500px 298px 126px;
+}
+.welcome .welcom-party h1 {
+  font-size: 64px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.welcome .welcom-party .midnight-party {
+  display: block;
+}
+.welcome .welcom-party .get-ready {
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+.welcome .welcom-party .join-now {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background: none;
+  border: none;
+  margin-left: 126px;
+}
+.welcome .year-image {
+  position: absolute;
+  right: 20px; /* Adjust the horizontal position */
+  top: 80px; /* Adjust the vertical position */
+
+  z-index: 2; /* Keep the image above the text */
+}
