@@ -195,3 +195,134 @@
 .new-offer .another-content p {
   margin-bottom: 43px;
 }
+/* holidays-sales
+.holidays-sales {
+  margin: 120px 140px;
+}
+.new-discount {
+  height: 788px;
+}
+.holidays-sales .functional {
+  width: 854px;
+  margin: 0 auto;
+  margin-bottom: 64px;
+}
+.holidays-sales .functional h4 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.holidays-sales .functional h1 {
+  font-size: 72px;
+  margin-bottom: 22px;
+}
+.holidays-sales .functional h1 .red-holidays {
+  color: red;
+}
+.holidays-sales .functional p {
+  font-size: 20px;
+  color: #0702117e;
+}
+.holidays-sales-image {
+  position: relative;
+}
+.holidays-sales-image .discount-50 {
+  position: absolute;
+  top: 320px;
+  bottom: 223px;
+  left: 900px;
+  right: 32px;
+}
+.holidays-sales-image .giftbox {
+  position: absolute;
+  top: 150px;
+}
+.holidays-sales .red-banner {
+  position: absolute;
+  top: 4500px;
+} */
+
+.dis-container {
+  width: 1320px;
+  height: 986px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+  border-radius: 16px;
+  /* text-align: center; */
+}
+.dis-text {
+  width: 1068px;
+  height: 260px;
+  text-align: center;
+  margin: auto;
+}
+.dis-text .dis-sub {
+  /* width: 263px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin:auto auto; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+}
+.dis-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  margin-top: 16px;
+  font-weight: bolder;
+}
+.dis-span {
+  color: red;
+}
+.dis-des {
+  width: 1038px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin-top: 28px;
+  opacity: 0.7;
+}
+.dis-image {
+  height: 662px;
+  position: relative;
+}
+.rec {
+  position: absolute;
+  top: 495px;
+}
+.gift {
+  position: absolute;
+  margin-top: 95px;
+}
+.rigth-img {
+  position: absolute;
+  top: 150px;
+  left: 990px;
+}
+/* gallery styles */
+.gallery {
+  margin: 120px 140px;
+}
+.gallery-text .the-best-gift {
+  color: red;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.gallery-text .awsm-port {
+  font-size: 42px;
+  margin-bottom: 19px;
+}
+.gallery-text .lorem-text {
+  color: #070211a1;
+  font-size: 20px;
+  margin-bottom: 42px;
+}
+.gallery-images {
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.gallery-images img {
+  max-width: 350px;
+}
