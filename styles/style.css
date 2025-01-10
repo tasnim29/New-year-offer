@@ -318,11 +318,28 @@
   margin-bottom: 42px;
 }
 .gallery-images {
-  width: 90%;
+  width: 100%;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
-.gallery-images img {
+/* .gallery-images img {
   max-width: 350px;
+} */
+
+/* subscibe section */
+.subscribe {
+  background-color: #ff000028;
+  height: 600px;
+  width: 1300px;
+  margin: 120px 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe .subscribe-container .subscribe-image {
+  margin: 0 585px;
+}
+.subscribe .subscribe-container .sub-content {
+  margin: 0 212px;
 }
